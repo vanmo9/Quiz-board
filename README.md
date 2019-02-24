@@ -9,8 +9,7 @@ Mohamed Hassan
 ## Project Description
 
 This is web application that allows users help themselves in expanding their JavaScript knowledge and testing themselves by doing a test as given.
-\##Technologies Used
-
+## Technologies Used
 -   CSS
 -   HTML
 -   JavaScript
