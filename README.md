@@ -14,9 +14,10 @@ This is web application that allows users help themselves in expanding their Jav
 -   CSS
 -   HTML
 -   JavaScript
-    ## Project Setup Installation
+
+##   Project Setup Installation
     You can get it on git-hub. From the repository, click + in the global sidebar and select Clone this repository under and get to work. Copy the https. From terminal use $ git clone <https://github.com/vanmo9/Quiz-board.git>
-    ## BDD
+## BDD
 
 ## Live Link
 
