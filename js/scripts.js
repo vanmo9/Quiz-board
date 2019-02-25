@@ -10,10 +10,10 @@ $(document).ready(function() {
     var percentage = (((score) / 20) * 100);
 
     $("#result").text(score + " marks");
-    $("#display").text(perc + " % ");
-    if (perc >= 90) {
+    $("#display").text(percentage + " % ");
+    if (percentage >= 90) {
       alert("Excellent")
-    } else if (perc >= 50) {
+    } else if (percentage >= 50) {
       alert("Fair")
     } else {
       alert("poor")
