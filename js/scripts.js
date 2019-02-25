@@ -12,7 +12,7 @@ $(document).ready(function() {
     var Q5 = parseInt($("input:radio[name=Q5]:checked").val());
     var result = total(Q1,Q2,Q3,Q4,Q5);
 
-    document.getElementById('resultsa').innerHTML= "you have scored " + result;
+    document.getElementById('results').innerHTML= "you have scored " + result;
 
 
     var percentage = (result / 50) * 100
