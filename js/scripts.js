@@ -14,9 +14,9 @@ $(document).ready(function() {
     if (percentage >= 90) {
       alert("Excellent")
     } else if (percentage >= 50) {
-      alert("Fair")
+      alert("Average")
     } else {
-      alert("poor")
+      alert("Poor")
     };
   });
 });
