@@ -7,16 +7,17 @@ $(document).ready(function() {
     var Q4 = parseInt($("input:radio[name=Q4]:checked").val());
     var Q5 = parseInt($("input:radio[name=Q5]:checked").val());
     var result = (Q1 + Q2 + Q3 + Q4 + Q5);
-    var percentage = (((score) / 20) * 100);
 
-    $("#result").text(score + " marks");
-    $("#display").text(percentage + " % ");
-    if (percentage >= 90) {
-      alert("Excellent")
+
+
+    // $("#result").text(score + );
+    // $("#display").text(percentage + " % ");
+    if (result >= 90) {
+      alert("Excellent your score is +result")
     } else if (percentage >= 50) {
-      alert("Average")
+      alert("Average your total score is +result")
     } else {
-      alert("Poor")
+      alert("Poor your total score is +result")
     };
   });
 });
