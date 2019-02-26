@@ -17,11 +17,11 @@ $(document).ready(function() {
 
     var percentage = (result / 50) * 100
 
-    if (percentage <= 100 && percentage >= 90) {
+    if (percentage >= 90) {
       alert("Excellent");
-    } else if (percentage <= 89 && percentage >= 50) {
+    } else if ( percentage >= 50) {
       alert("Average");
-    } else {
+    } else {percentage >= 20
       alert("Poor");
     };
   });
